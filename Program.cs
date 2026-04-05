@@ -85,6 +85,22 @@ namespace lab4_2
             double totalPrice = 0;
             int expensiveItemsCount = 0;
 
+
+            foreach (PetStoreItem item in inventory)
+            {
+                Console.WriteLine(item.GetInfo());
+
+                totalPrice = totalPrice + item.Price;
+
+                if (item.IsExpensive())
+                {
+                    expensiveItemsCount++;
+                }
+            }
+
+            Console.WriteLine($"Загальна кількість створених товарів: {PetStoreItem.GetTotalCount()}");
+            Console.WriteLine($"Загальна сума цін усіх товарів: {totalPrice} грн");
+            Console.WriteLine($"Кількість 'дорогих' товарів: {expensiveItemsCount}");
         }
     }
 }
