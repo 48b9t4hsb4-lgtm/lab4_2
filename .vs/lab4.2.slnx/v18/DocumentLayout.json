@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\lab4.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDEE24B5-CF60-427F-991E-A4C7760BF3D6}|lab4.2.csproj|c:\\users\\asus\\source\\repos\\lab4.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDEE24B5-CF60-427F-991E-A4C7760BF3D6}|lab4.2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{179671BC-D90A-21A0-6229-3941E61349CC}|lab4.2.csproj|c:\\users\\asus\\source\\repos\\lab4.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{179671BC-D90A-21A0-6229-3941E61349CC}|lab4.2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\lab4.2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAywAwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T17:49:43.038Z",
               "EditorCaption": ""

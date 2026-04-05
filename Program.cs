@@ -45,7 +45,10 @@ public class Food : PetStoreItem
     {
         this.animalType = animalType;
     }
-
+    public override string GetInfo()
+    {
+        return base.GetInfo() + $" | Тип тварини: {animalType} (Корм)";
+    }
 }
 public class Accessory : PetStoreItem
 {
@@ -63,5 +66,27 @@ public class Accessory : PetStoreItem
     }
 }
 
+namespace lab4_2
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            List<PetStoreItem> inventory = new List<PetStoreItem>
+            {
+                new Food(891, "Паштет преміум", 150, "Кіт"),
+                new Food(892, "Сухий корм", 950, "Пес"),
+                new Accessory(101, "Шкіряний нашийник", 300, "Шкіра"),
+                new Accessory(102, "Великий будиночок", 1500, "Дерево та плюш")
+            };
+
+            double totalPrice = 0;
+            int expensiveItemsCount = 0;
+
+        }
+    }
+}
 
 
